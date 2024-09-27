@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #ff6347;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ed00b5;
+    margin-top: 20px;
+}
+
+
+h5 {
+    color: #a647ff;
+  
+}
+
+p {
+    color: #555;
+}
+
+ul, ol {
+    color: #333;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+img {
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+iframe {
+    margin-top: 20px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
