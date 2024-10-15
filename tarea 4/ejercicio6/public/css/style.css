@@ -1,0 +1,59 @@
+/*NO MODIFICAR*/
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+ul {
+    width: 800px;
+    height: 490px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    border: 2px solid #4D7298;
+}
+
+li {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+    margin: .5em;
+}
+
+/*DESDE ACA MODIFICAR*/
+/* Modificar los siguientes elementos para que se vea como en la imagen de la consigna */
+ul {
+    display: flex; /* Convierto el contenedor en un flex container */
+    flex-wrap: wrap; /* Permite que los elementos se distribuyan en múltiples filas */
+    justify-content: space-around; /* Espacio alrededor de los elementos */
+    margin: 0; /* Sin margen en el contenedor */
+    padding: 0; /* Sin padding en el contenedor */
+    width: 800px; /* Ancho fijo para el contenedor */
+    height: 490px; /* Altura fija para el contenedor */
+}
+
+li {
+    flex: 0 1 calc(33.33% - 1em); /* Cada elemento ocupa un tercio del ancho total menos el margen */
+    margin: 0.5em; /* Margen entre los elementos */
+    box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el ancho */
+    height: 90px; /* Altura fija para mantener un tamaño uniforme */
+    display: flex; /* Permite centrar el contenido dentro de los elementos */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    background-color: #4D7298; /* Color de fondo */
+    border: 2px solid #77A6B6; /* Borde del elemento */
+    border-radius: 0.5em; /* Bordes redondeados */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Centra el texto en el elemento */
+}
+
+/* Si deseas agregar estilos específicos para cada clase */
+.l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8 {
+    /* Aquí puedes añadir estilos específicos para cada elemento si es necesario */
+}

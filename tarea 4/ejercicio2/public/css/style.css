@@ -1,0 +1,38 @@
+/*NO MODIFICAR*/
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+ul {
+    max-width: 700px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+}
+
+/*MODIFICAR DESDE ACA*/
+/*Los elementos de la lista son todos de diferentes tamaños, pero queremos que se muestren como tres columnas del mismo tamaño, sin importar el contenido de cada elemento*/
+ul {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a una nueva fila si es necesario */
+}
+
+li {
+    flex: 1 1 30%; /* Todos los elementos ocuparán aproximadamente un tercio del ancho del contenedor */
+    margin: 10px;  /* Agrega un pequeño margen entre las columnas */
+    text-align: center; /* Centra el contenido de cada columna */
+    box-sizing: border-box; /* Asegura que el padding y el border no desborden el ancho */
+}
